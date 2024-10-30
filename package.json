@@ -1,0 +1,40 @@
+{
+  "name": "sheet-vest",
+  "version": "1.0.0",
+  "description": "Plugin Vite otimizado para desenvolvimento web",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "hmr",
+    "sheet-vest"
+  ],
+  "license": "MIT",
+  "author": "Fabiano Oliveira",
+  "peerDependencies": {
+    "vite": "^5.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "eslint": "^9.13.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "picocolors": "^1.1.1",
+    "vite": "^5.4.10"
+  }
+}
